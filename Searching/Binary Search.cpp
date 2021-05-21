@@ -12,16 +12,17 @@ int binarysearch(int arr[],int n, int k){
         }
         else if(arr[mid]>k){
             e=mid-1;
-    }
         }
         else{
             s=mid+1;
         }
+    }
     return -1;
 }
 int main()
 {
-    int n,r,arr[10];
+    int n,r;
+    int arr[n];
     cin>>n;
     for(int i=0; i<n; i++){
         cin>>arr[i];
